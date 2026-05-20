@@ -131,7 +131,9 @@ export const CanvasBackground: React.FC = () => {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 w-full h-full -z-10 pointer-events-none"
-      style={{ background: '#020208' }}
+      style={{
+        background: 'transparent'
+      }}
     />
   )
 }
