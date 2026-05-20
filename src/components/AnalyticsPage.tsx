@@ -54,7 +54,7 @@ export const AnalyticsPage: React.FC<AnalyticsPageProps> = ({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           // Replace this placeholder string with your actual access key from web3forms.com
-          access_key: "40d25300-461c-49b3-abb6-caca2d9bc010", 
+          access_key: "dcf0b94b-722e-45cd-a3cd-3b3f8f4540d4", 
           message: feedback,
           subject: `OS Visualizer Feedback [${mode.toUpperCase()} - ${algoName}]`
         }),
